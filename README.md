@@ -142,7 +142,7 @@ const om = {
 <img src="https://github-profile-trophy.vercel.app/?username=OMD-123&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=7&title=Stars,Followers,Repositories,Commits,Issues,PullRequest,Experience,Joined&rank=-C,-B" alt="Trophies"/>
 
 ### 📅 Contribution Activity Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=OMD-123&bg_color=0d1117&color=00D9FF&line=EC4899&point=ffffff&hide_border=true&area=true&custom_title=�8%20Daily%20Contribution%20Graph" alt="Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=OMD-123&bg_color=0d1117&color=00D9FF&line=EC4899&point=ffffff&hide_border=true&area=true&custom_title=📈%20Daily%20Contribution%20Graph" alt="Activity Graph"/>
 
 </div>
 
