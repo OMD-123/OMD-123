@@ -190,8 +190,8 @@ const om = {
 <br>
 <sub>L1/L2 cache • Rate limiting • JWT • GraphQL Yoga</sub>
 <br><br>
-<img src="https://img.shields.io/github/stars/OMD-123/advance-backday3-graphql-gateway?style=flat-square&color=00D9FF"/>
-<img src="https://img.shields.io/github/forks/OMD-123/advance-backend-day3-graphql-gateway?style=flat-square&color=A78BFA"/>
+<img src="https://img.shields.io/github/stars/OMD-123/advance-backend-day3-graphql-gateway?style=flat-square&color=00D9FF"/>
+<img src="https://img.shieldsios/github/forks/OMD-123/advance-backend-day3-graphql-gateway?style=flat-square&color=A78BFA"/>
 <br>
 [🛠️ **View Repo**](https://github.com/OMD-123/advance-backend-day3-graphql-gateway)
 
