@@ -176,7 +176,7 @@ const om = {
 <sub>Access + Refresh tokens • Token revocation • bcrypt</sub>
 <br><br>
 <img src="https://img.shields.io/github/stars/OMD-123/advance-backend-day2-jwt-auth?style=flat-square&color=00D9FF"/>
-<img src="https://img.shields.io/github/forks/OMD-123/advance-backend-day2-jwt-auth?style=flat-square&color=A78BFA"/>
+<img src="https://img.shieldsios/github/forks/OMD-123/advance-backend-day2-jwt-auth?style=flat-square&color=A78BFA"/>
 <br>
 [🛠️ **View Repo**](https://github.com/OMD-123/advance-backend-day2-jwt-auth)
 
@@ -190,8 +190,8 @@ const om = {
 <br>
 <sub>L1/L2 cache • Rate limiting • JWT • GraphQL Yoga</sub>
 <br><br>
-<img src="https://img.shields.io/github/stars/OMD-123/advance-backend-day3-graphql-gateway?style=flat-square&color=00D9FF"/>
-<img src="https://img.shieldsios/github/forks/OMD-123/advance-backend-day3-graphql-gateway?style=flat-square&color=A78BFA"/>
+<img src="https://img.shields.io/github/stars/OMD-123/advance-backday3-graphql-gateway?style=flat-square&color=00D9FF"/>
+<img src="https://img.shields.io/github/forks/OMD-123/advance-backend-day3-graphql-gateway?style=flat-square&color=A78BFA"/>
 <br>
 [🛠️ **View Repo**](https://github.com/OMD-123/advance-backend-day3-graphql-gateway)
 
@@ -218,9 +218,9 @@ const om = {
 <sub>Auto-generates daily via GitHub Actions</sub>
 <br><br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://omd-123.github.io/OMD-123/github-contribution-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://omd-123.github.io/OMD-123/github-contribution-snake.svg" />
-  <img alt="github contribution snake animation" src="https://omd-123.github.io/OMD-123/github-contribution-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://omd-123.github.io/OMD-123/output/github-contribution-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://omd-123.github.io/OMD-123/output/github-contribution-snake.svg" />
+  <img alt="github contribution snake animation" src="https://omd-123.github.io/OMD-123/output/github-contribution-snake.svg" />
 </picture>
 
 </div>
