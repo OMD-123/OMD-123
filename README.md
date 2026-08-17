@@ -142,8 +142,7 @@ const om = {
 <img src="https://github-profile-trophy.vercel.app/?username=OMD-123&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=7&title=Stars,Followers,Repositories,Commits,Issues,PullRequest,Experience,Joined&rank=-C,-B" alt="Trophies"/>
 
 ### 📅 Contribution Activity Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=OMD-123&bg_color=0d1117&color=00D9FF&line=EC4899&point=ffffff&hide_border=true&area=true&custom_title=📈%20Daily%20Contribution%20Graph" alt="Activity Graph"/>
-
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=OMD-123&bg_color=0d1117&color=00D9FF&line=EC4899&point=ffffff&hide_border=true&area=true&custom_title=�8%20Daily%20Contribution%20Graph" alt="Activity Graph"/>
 </div>
 
 ---
@@ -192,7 +191,7 @@ const om = {
 <sub>L1/L2 cache • Rate limiting • JWT • GraphQL Yoga</sub>
 <br><br>
 <img src="https://img.shields.io/github/stars/OMD-123/advance-backend-day3-graphql-gateway?style=flat-square&color=00D9FF"/>
-<img src="https://img.shields.io/github/forks/OMD-123/advance-backend-day3-graphql-gateway?style=flat-square&color=A78BFA"/>
+<img src="https://img.shieldsios/github/forks/OMD-123/advance-backend-day3-graphql-gateway?style=flat-square&color=A78BFA"/>
 <br>
 [🛠️ **View Repo**](https://github.com/OMD-123/advance-backend-day3-graphql-gateway)
 
@@ -205,7 +204,7 @@ const om = {
 <sub>React • Node • MongoDB • Custom assets</sub>
 <br><br>
 <img src="https://img.shields.io/github/stars/OMD-123/spydy-portfolio?style=flat-square&color=00D9FF"/>
-<img src="https://img.shields.io/github/forks/OMD-123/spydy-portfolio?style=flat-square&color=A78BFA"/>
+<img src="https://img.shieldsios/github/forks/OMD-123/spydy-portfolio?style=flat-square&color=A78BFA"/>
 <br>
 [🛠️ **View Repo**](https://github.com/OMD-123/spydy-portfolio)
 
