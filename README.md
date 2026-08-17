@@ -142,7 +142,7 @@ const om = {
 <img src="https://github-profile-trophy.vercel.app/?username=OMD-123&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=7&title=Stars,Followers,Repositories,Commits,Issues,PullRequest,Experience,Joined&rank=-C,-B" alt="Trophies"/>
 
 ### 📅 Contribution Activity Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=OMD-123&bg_color=0d1117&color=00D9FF&line=EC4899&point=ffffff&hide_border=true&area=true&custom_title=📈%20Daily%20Contribution%20Graph" alt="Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=OMD-123&bg_color=0d1117&color=00D9FF&line=EC4899&point=ffffff&hide_border=true&area=true&custom_title=�8%20Daily%20Contribution%20Graph" alt="Activity Graph"/>
 
 </div>
 
@@ -219,9 +219,9 @@ const om = {
 <sub>Auto-generates daily via GitHub Actions</sub>
 <br><br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OMD-123/OMD-123/output/github-contribution-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OMD-123/OMD-123/output/github-contribution-snake.svg" />
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/OMD-123/OMD-123/output/github-contribution-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://omd-123.github.io/OMD-123/github-contribution-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://omd-123.github.io/OMD-123/github-contribution-snake.svg" />
+  <img alt="github contribution snake animation" src="https://omd-123.github.io/OMD-123/github-contribution-snake.svg" />
 </picture>
 
 </div>
