@@ -39,7 +39,7 @@ const om = {
   location:       "Nashik, Maharashtra 🇮🇳",
   email:          "omd4485@gmail.com",
   currently:      [
-    "🚀 Building Day 4: Real-time Notification System",
+    "🚀 Building Day 5: Backend System",
     "📊 Capstone: Multimodal Sentiment Analysis",
     "🎯 Applying for Summer 2026 internships"
   ],
@@ -191,9 +191,22 @@ const om = {
 <sub>L1/L2 cache • Rate limiting • JWT • GraphQL Yoga</sub>
 <br><br>
 <img src="https://img.shields.io/github/stars/OMD-123/advance-backend-day3-graphql-gateway?style=flat-square&color=00D9FF"/>
-<img src="https://img.shieldsios/github/forks/OMD-123/advance-backend-day3-graphql-gateway?style=flat-square&color=A78BFA"/>
+<img src="https://img.shields.io/github/forks/OMD-123/advance-backend-day3-graphql-gateway?style=flat-square&color=A78BFA"/>
 <br>
 [🛠️ **View Repo**](https://github.com/OMD-123/advance-backend-day3-graphql-gateway)
+
+</td>
+<td width="50%" align="center">
+
+### 🔔 Real-time Notification System
+**WebSocket + Redis pub/sub**
+<br>
+<sub>Multi-channel • WS fan-out • Retry + DLQ</sub>
+<br><br>
+<img src="https://img.shields.io/github/stars/OMD-123/advance-backend-day4-notification-system?style=flat-square&color=00D9FF"/>
+<img src="https://img.shields.io/github/forks/OMD-123/advance-backend-day4-notification-system?style=flat-square&color=A78BFA"/>
+<br>
+[🛠️ **View Repo**](https://github.com/OMD-123/advance-backend-day4-notification-system)
 
 </td>
 <td width="50%" align="center">
@@ -218,9 +231,9 @@ const om = {
 <sub>Auto-generates daily via GitHub Actions</sub>
 <br><br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://omd-123.github.io/OMD-123/output/github-contribution-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://omd-123.github.io/OMD-123/output/github-contribution-snake.svg" />
-  <img alt="github contribution snake animation" src="https://omd-123.github.io/OMD-123/output/github-contribution-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://omd-123.github.io/OMD-123/github-contribution-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://omd-123.github.io/OMD-123/github-contribution-snake.svg" />
+  <img alt="github contribution snake animation" src="https://omd-123.github.io/OMD-123/github-contribution-snake.svg" />
 </picture>
 
 </div>
@@ -234,13 +247,14 @@ const om = {
 </div>
 
 ```diff
-+ 🚧 Day 4  →  Real-time Notification System      [IN PROGRESS]
++ 🚧 Day 5  →  Backend System                    [IN PROGRESS]
 + 🚧 Capstone → Multimodal Sentiment Analysis    [WEEK 1 of 12]
 + 🎯 Goal   →  Land a Summer 2026 internship     [ACTIVELY APPLYING]
++ ✅ Done   →  Day 4 Notification System         [DONE]
++ ✅ Done   →  Day 3 GraphQL Gateway             [DONE]
++ ✅ Done   →  Day 2 JWT Auth                    [DONE]
++ ✅ Done   →  Day 1 Rate Limiter                [DONE]
 - 🐛 Fixed  →  Vercel deploy env vars on Spydy   [DONE]
-- ✅ Done   →  Day 1 Rate Limiter                [DONE]
-- ✅ Done   →  Day 2 JWT Auth                    [DONE]
-- ✅ Done   →  Day 3 GraphQL Gateway             [DONE]
 ```
 
 <div align="center">
