@@ -176,9 +176,6 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 ### 📦 **Advance Backend Series** — 6 Production Systems in 6 Weeks
 **TypeScript • Redis • BullMQ**
 
-<details>
-<summary><b>Click to expand ▼</b></summary>
-
 <sub>
 
 | Day | System | Key Technologies | Tests |
@@ -192,16 +189,11 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 
 </sub>
 
-</details>
-
 [🛠️ **View All Day Repos**](https://github.com/OMD-123?tab=repositories&q=advance-backend)
 
 ---
 
 ### 🌐 **Distributed Systems & Infrastructure**
-
-<details>
-<summary><b>Click to expand ▼</b></summary>
 
 <sub>
 
@@ -215,14 +207,9 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 
 </sub>
 
-</details>
-
 ---
 
 ### 🧠 **AI & Specialized Systems**
-
-<details>
-<summary><b>Click to expand ▼</b></summary>
 
 <sub>
 
@@ -234,14 +221,9 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 
 </sub>
 
-</details>
-
 ---
 
 ### 🏗️ Full-Stack Platforms
-
-<details>
-<summary><b>Click to expand ▼</b></summary>
 
 <sub>
 
@@ -254,14 +236,9 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 
 </sub>
 
-</details>
-
 ---
 
 ### 🔬 Specialized & Research
-
-<details>
-<summary><b>Click to expand ▼</b></summary>
 
 <sub>
 
@@ -273,8 +250,6 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 | [🛰️ GOD'S EYE](https://github.com/OMD-123/gods-eyes) | Real-time intelligence dashboard • Flights, vessels, AQI, CCTV, seismic • 24 Indian cities | JS, Real-time APIs |
 
 </sub>
-
-</details>
 
 ---
 
