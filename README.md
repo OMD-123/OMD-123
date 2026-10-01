@@ -165,134 +165,71 @@ const om = {
 
 </div>
 
-<table align="center">
-<tr>
-<td width="50%" align="center">
+### 🛡️ **agent-loop-guard** — AI Agent Safety Library
+**13 ⭐ • npm: @omdd/agent-loop-guard**
+Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents  
+<sub>Provider-independent • Zero deps • TypeScript-first • Loop detection</sub>  
+[🛠️ **Repo**](https://github.com/OMD-123/agent-loop-guard) • [📦 **npm**](https://www.npmjs.com/package/@omdd/agent-loop-guard) • [⭐ **13**](https://github.com/OMD-123/agent-loop-guard/stargazers)
 
-### 🛡️ agent-loop-guard
-**AI Agent Safety Library • 13 ⭐ • npm: @omdd/agent-loop-guard**
-<br>
-Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
-<br><br>
-<sub>Provider-independent • Zero deps • TypeScript-first • Loop detection</sub>
-<br><br>
-<img src="https://img.shields.io/github/stars/OMD-123/agent-loop-guard?style=flat-square&color=00D9FF"/>
-<img src="https://img.shields.io/github/forks/OMD-123/agent-loop-guard?style=flat-square&color=A78BFA"/>
-<br>
-[🛠️ **View Repo**](https://github.com/OMD-123/agent-loop-guard)
-&nbsp;•&nbsp;
-[📦 **npm Package**](https://www.npmjs.com/package/@omdd/agent-loop-guard)
+---
 
-</td>
-<td width="50%" align="center">
+### 📦 **Advance Backend Series** — 6 Production Systems in 6 Weeks
+**TypeScript • Redis • BullMQ**
 
-### 📦 Advance Backend Series (6 Systems in 6 Weeks)
-**Production-Grade Backend Systems • TypeScript • Redis • BullMQ**
-<br><br>
-
-| Day | System | Key Tech | Tests |
-|-----|--------|----------|-------|
+| Day | System | Key Technologies | Tests |
+|-----|--------|------------------|-------|
 | **Day 1** | [Rate Limiter](https://github.com/OMD-123/advance-backend-day1-rate-limiter) | Token Bucket, Sliding Window, Leaky Bucket, Fixed Window, Sliding Log • Redis | ✅ |
 | **Day 2** | [JWT Auth](https://github.com/OMD-123/advance-backend-day2-jwt-auth) | RBAC, Refresh Tokens, Rotation, Blacklisting, bcrypt | ✅ |
 | **Day 3** | [GraphQL Gateway](https://github.com/OMD-123/advance-backend-day3-graphql-gateway) | Schema Stitching, Redis L1/L2 Cache, Rate Limiting, Auth | ✅ |
 | **Day 4** | [Notification System](https://github.com/OMD-123/advance-backend-day4-notification-system) | WebSocket + Redis Pub/Sub, Multi-channel, Retry + DLQ | ✅ |
-| **Day 5** | [Job Queue](https://github.com/OMD-123/advance-backend-day5-job-queue) | BullMQ + Redis, Priority, Retry, DLQ | **45 tests** |
-| **Day 6** | [Backend System](https://github.com/OMD-123/advance-backend-day6-backend-system) | Distributed System Design, Service Mesh Patterns | 🔄 |
+| **Day 5** | [Job Queue](https://github.com/OMD-123/advance-backend-day5-job-queue) | BullMQ + Redis, Priority, Retry, DLQ | **45 tests** ✅ |
+| **Day 6** | [Backend System](https://github.com/OMD-123/advance-backend-day6-backend-system) | Service Mesh, Distributed Tracing, Circuit Breakers | 🔄 |
 
-<br>
 [🛠️ **View All Day Repos**](https://github.com/OMD-123?tab=repositories&q=advance-backend)
 
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
+---
 
-### 🌐 Distributed Systems & Infrastructure
+### 🌐 **Distributed Systems & Infrastructure**
 
-**🕸️ [Distributed Web Crawler](https://github.com/OMD-123/distributed-web-crawler-ts)**
-<sub>Scalable MERN crawler • Distributed queue • Politeness policies • Rate limiting</sub>
-<br><br>
+| Project | Description | Key Tech |
+|---------|-------------|----------|
+| [🕸️ Distributed Web Crawler](https://github.com/OMD-123/distributed-web-crawler-ts) | Scalable MERN crawler with distributed queue, politeness policies, rate limiting | MERN, TS, Redis, BullMQ |
+| [🗄️ DB Sharding & Replication](https://github.com/OMD-123/db-sharding-replication) | Consistent hashing + Range sharding, Single-leader replication, Quorum reads, Vector clocks | JS, Zero deps, node:test |
+| [⚙️ Distributed Task Orchestrator](https://github.com/OMD-123/distributed-task-orchestrator-ts) | Priority queues, State persistence, Reliable execution | TS, Redis |
+| [📦 Job Queue (Day 5)](https://github.com/OMD-123/advance-backend-day5-job-queue) | BullMQ + Redis, Priority queues, Retry with exponential backoff, DLQ | 45 tests ✅ |
+| [☁️ Container Scheduler](https://github.com/OMD-123/container-scheduler-mern-ts) | Docker orchestration, Resource allocation, Health checks | MERN, TS, Docker |
 
-**🗄️ [DB Sharding & Replication](https://github.com/OMD-123/db-sharding-replication)**
-<sub>Consistent hashing + Range sharding • Single-leader replication • Quorum reads • Vector clocks • Zero deps</sub>
-<br><br>
+---
 
-**⚙️ [Distributed Task Orchestrator](https://github.com/OMD-123/distributed-task-orchestrator-ts)**
-<sub>Priority queues • State persistence • Reliable execution • TypeScript</sub>
-<br><br>
+### 🧠 **AI & Specialized Systems**
 
-**📦 [Advance Backend Day 5: Job Queue](https://github.com/OMD-123/advance-backend-day5-job-queue)**
-<sub>BullMQ + Redis • Priority queues • Retry with exponential backoff • DLQ • 45 tests passing</sub>
-<br><br>
+| Project | Description | Key Tech |
+|---------|-------------|----------|
+| [🛡️ agent-loop-guard](https://github.com/OMD-123/agent-loop-guard) ⭐ **13** | AI agent safety library • Loop detection • Tool call limiting • Zero deps • **Published on npm** | TS, Zero deps |
+| [Multimodal Sentiment Analysis](https://github.com/OMD-123/enterpret-feedback-dedup) | MinHash LSH deduplication • Customer feedback analysis • Nearest neighbor search | Python, MinHash LSH |
+| [AI Code Execution Arena](https://github.com/OMD-123/ai-code-execution-arena) | Sandboxed code execution • Multi-language support • Resource limits | TS, Sandbox |
 
-**☁️ [Container Scheduler](https://github.com/OMD-123/container-scheduler-mern-ts)**
-<sub>MERN + TypeScript • Docker orchestration • Resource allocation • Health checks</sub>
-
-</td>
-<td width="50%" align="center">
-
-### 🧠 AI & Specialized Systems
-
-**🛡️ [agent-loop-guard](https://github.com/OMD-123/agent-loop-guard)** ⭐ **13**
-<sub>AI agent safety library • Loop detection • Tool call limiting • Zero deps • **Published on npm: @omdd/agent-loop-guard**</sub>
-<br><br>
-
-**🧠 [Multimodal Sentiment Analysis](https://github.com/OMD-123/enterpret-feedback-dedup)**
-<sub>MinHash LSH deduplication • Customer feedback analysis • Python • Nearest neighbor search</sub>
-<br><br>
-
-**⚡ [AI Code Execution Arena](https://github.com/OMD-123/ai-code-execution-arena)**
-<sub>Sandboxed code execution • Multi-language support • Resource limits</sub>
-<br><br>
-
-**🤖 [Agent Loop Guard](https://github.com/OMD-123/agent-loop-guard)**
-<sub>Provider-independent AI agent safety • Loop detection • Tool call limiting • Zero deps</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
+---
 
 ### 🏗️ Full-Stack Platforms
 
-**🐙 [GitHub-like Platform](https://github.com/OMD-123/gitHub-like-platform-ts)**
-<sub>MERN + TS • Native Git storage (nodegit) • CI/CD (BullMQ) • Webhooks • Code search • Monaco Editor</sub>
-<br><br>
+| Project | Description | Key Tech |
+|---------|-------------|----------|
+| [🐙 GitHub-like Platform](https://github.com/OMD-123/gitHub-like-platform-ts) | Native Git storage (nodegit) • CI/CD (BullMQ) • Webhooks • Code search • Monaco Editor | MERN, TS, nodegit, BullMQ |
+| [🎮 LeetCode Clone](https://github.com/OMD-123/leetcode-clone-mern-ts) | Code execution sandbox • Real-time submissions • Problem management | MERN, TS |
+| [🏗️ Advanced System Design MERN](https://github.com/OMD-123/advanced-system-design-mern) | Caching layers • Load balancing • Service mesh | MERN, TS |
+| [🏗️ Day 6: Distributed Backend System](https://github.com/OMD-123/advance-backend-day6-backend-system) | Service mesh patterns • Distributed tracing • Circuit breakers | TS, Service Mesh |
 
-**🎮 [LeetCode Clone](https://github.com/OMD-123/leetcode-clone-mern-ts)**
-<sub>MERN + TS • Code execution sandbox • Real-time submissions • Problem management</sub>
-<br><br>
-
-**🏗️ [Advanced System Design MERN](https://github.com/OMD-123/advanced-system-design-mern)**
-<sub>System design patterns • Caching layers • Load balancing • Service mesh</sub>
-<br><br>
-
-**🏗️ [Day 6: Distributed Backend System](https://github.com/OMD-123/advance-backend-day6-backend-system)**
-<sub>Service mesh patterns • Distributed tracing • Circuit breakers • Service discovery</sub>
-
-</td>
-<td width="50%" align="center">
+---
 
 ### 🔬 Specialized & Research
 
-**🔗 [DB Sharding & Replication](https://github.com/OMD-123/db-sharding-replication)**
-<sub>Consistent hashing + Range sharding • Single-leader replication • Quorum • Vector clocks • Zero deps</sub>
-<br><br>
-
-**🧠 [Multimodal Sentiment Analysis](https://github.com/OMD-123/enterpret-feedback-dedup)**
-<sub>MinHash LSH deduplication • Customer feedback analysis • Nearest neighbor search • Python</sub>
-<br><br>
-
-**🪙 [OmCoin ERC-20](https://github.com/OMD-123/OmCoin)**
-<sub>Solidity • Hardhat • OpenZeppelin • Ethers.js • Deployed on testnet</sub>
-<br><br>
-
-**🛰️ [GOD'S EYE](https://github.com/OMD-123/gods-eyes)**
-<sub>Real-time intelligence dashboard • Flights, vessels, AQI, CCTV, seismic • 24 Indian cities</sub>
-
-</td>
-</tr>
-</table>
+| Project | Description | Key Tech |
+|---------|-------------|----------|
+| [🗄️ DB Sharding & Replication](https://github.com/OMD-123/db-sharding-replication) | Consistent hashing + Range sharding • Single-leader replication • Quorum reads • Vector clocks • Zero deps | JS, node:test |
+| [🧠 Multimodal Sentiment Analysis](https://github.com/OMD-123/enterpret-feedback-dedup) | MinHash LSH deduplication • Customer feedback analysis • Nearest neighbor search | Python, MinHash LSH |
+| [🪙 OmCoin ERC-20](https://github.com/OMD-123/OmCoin) | Solidity • Hardhat • OpenZeppelin • Ethers.js • Deployed on testnet | Solidity, Hardhat |
+| [🛰️ GOD'S EYE](https://github.com/OMD-123/gods-eyes) | Real-time intelligence dashboard • Flights, vessels, AQI, CCTV, seismic • 24 Indian cities | JS, Real-time APIs |
 
 ---
 
