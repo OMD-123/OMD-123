@@ -196,7 +196,7 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 | **Day 2** | [JWT Auth](https://github.com/OMD-123/advance-backend-day2-jwt-auth) | RBAC, Refresh Tokens, Rotation, Blacklisting, bcrypt | ✅ |
 | **Day 3** | [GraphQL Gateway](https://github.com/OMD-123/advance-backend-day3-graphql-gateway) | Schema Stitching, Redis L1/L2 Cache, Rate Limiting, Auth | ✅ |
 | **Day 4** | [Notification System](https://github.com/OMD-123/advance-backend-day4-notification-system) | WebSocket + Redis Pub/Sub, Multi-channel, Retry + DLQ | ✅ |
-| **Day 5** | [Job Queue](https://github.com/OMD-123/advance-backend-day5-job-queue) | BullMQ + Redis, Priority, Retry, DLQ, **45 tests** | ✅ **45** |
+| **Day 5** | [Job Queue](https://github.com/OMD-123/advance-backend-day5-job-queue) | BullMQ + Redis, Priority, Retry, DLQ | **45 tests** |
 | **Day 6** | [Backend System](https://github.com/OMD-123/advance-backend-day6-backend-system) | Distributed System Design, Service Mesh Patterns | 🔄 |
 
 <br>
@@ -314,6 +314,8 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 + ✅ Done   →  agent-loop-guard (Published on npm)      [DONE]
 ```
 
+---
+
 <div align="center">
 
 ### 🛣️ 2026 Roadmap
@@ -348,33 +350,11 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 
 <div align="center">
 
-## 🎯 Target Companies (Summer 2026)
-
-</div>
-
-<div align="center">
-
-| Tier 1 | Tier 2 | Tier 3 |
-|--------|--------|--------|
-| 🏦 **Stripe** | 🟢 **Atlassian** | 🔵 **Salesforce** |
-| 🟣 **Swiggy** | 🟠 **Cognizant** | 🔵 **Capgemini** |
-| 🟡 **TCS** | 🟠 **Amazon** | 🟢 **Concentrix** |
-| 🔵 **L&T** | 🔵 **Nestlé** | 🟢 **More...** |
-
-</div>
-
-> **Internship Strategy:** Cold emails with **Proof of Work** — I build custom features for target companies (e.g., rate limiter for Stripe, notification system for Swiggy) and include the working repo in cold outreach.
-
----
-
-<div align="center">
-
 ## 📫 Let's Connect
 
 </div>
 
 <div align="center">
-
 <a href="mailto:omd4485@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-omd4485@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
@@ -390,6 +370,7 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 <a href="tel:+919970055620">
   <img src="https://img.shields.io/badge/Phone-%2B91%209970055620-25D366?style=for-the-badge&logo=phone&logoColor=white" alt="Phone"/>
 </a>
+</div>
 
 <br><br>
 
