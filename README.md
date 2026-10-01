@@ -173,6 +173,15 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 
 ---
 
+### 📦 **Published npm Packages**
+
+| Package | Description | Links |
+|---------|-------------|-------|
+| **[@omdd/agent-loop-guard](https://www.npmjs.com/package/@omdd/agent-loop-guard)** | AI agent safety library • Loop detection • Tool call limiting • Zero deps • **Published on npm** | [📦 npm](https://www.npmjs.com/package/@omdd/agent-loop-guard) • [🛠️ Repo](https://github.com/OMD-123/agent-loop-guard) • [📊 Bundle](https://bundlephobia.com/package/@omdd/agent-loop-guard) |
+| **[typedoc](https://www.npmjs.com/package/typedoc)** | TypeScript documentation generator • HTML/JSON output • JSDoc/TSDoc support • Type inference | [📦 npm](https://www.npmjs.com/package/typedoc) • [🛠️ Repo](https://github.com/TypeStrong/typedoc) • [📖 Docs](https://typedoc.org/) |
+
+---
+
 ### 📦 **Advance Backend Series** — 6 Production Systems in 6 Weeks
 **TypeScript • Redis • BullMQ**
 
