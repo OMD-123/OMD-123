@@ -166,19 +166,18 @@ const om = {
 </div>
 
 ### 🛡️ **agent-loop-guard** — AI Agent Safety Library
-**13 ⭐ • npm: @omdd/agent-loop-guard**  
+**13 ⭐ • npm: agent-loop-guard-js**  
 Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents  
 <sub>Provider-independent • Zero deps • TypeScript-first • Loop detection</sub>  
-[🛠️ **Repo**](https://github.com/OMD-123/agent-loop-guard) • [📦 **npm**](https://www.npmjs.com/package/@omdd/agent-loop-guard) • [⭐ **13**](https://github.com/OMD-123/agent-loop-guard/stargazers)
+[🛠️ **Repo**](https://github.com/OMD-123/agent-loop-guard) • [📦 **npm**](https://www.npmjs.com/package/agent-loop-guard-js) • [⭐ **13**](https://github.com/OMD-123/agent-loop-guard/stargazers)
 
 ---
 
-### 📦 **Published npm Packages**
+### 📦 **Published npm Package**
 
-| Package | Description | Links |
-|---------|-------------|-------|
-| **[@omdd/agent-loop-guard](https://www.npmjs.com/package/@omdd/agent-loop-guard)** | AI agent safety library • Loop detection • Tool call limiting • Zero deps • **Published on npm** | [📦 npm](https://www.npmjs.com/package/@omdd/agent-loop-guard) • [🛠️ Repo](https://github.com/OMD-123/agent-loop-guard) • [📊 Bundle](https://bundlephobia.com/package/@omdd/agent-loop-guard) |
-| **[typedoc](https://www.npmjs.com/package/typedoc)** | TypeScript documentation generator • HTML/JSON output • JSDoc/TSDoc support • Type inference | [📦 npm](https://www.npmjs.com/package/typedoc) • [🛠️ Repo](https://github.com/TypeStrong/typedoc) • [📖 Docs](https://typedoc.org/) |
+| Package | Version | Links |
+|---------|---------|-------|
+| **agent-loop-guard-js** | [![npm](https://img.shields.io/npm/v/agent-loop-guard-js?color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/agent-loop-guard-js) [![npm](https://img.shields.io/npm/dm/agent-loop-guard-js?color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/agent-loop-guard-js) | [📦 npm](https://www.npmjs.com/package/agent-loop-guard-js) • [🛠️ Repo](https://github.com/OMD-123/agent-loop-guard) • [📊 Bundle](https://bundlephobia.com/package/agent-loop-guard-js) |
 
 ---
 
