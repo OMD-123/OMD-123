@@ -1,338 +1,404 @@
 <div align="center">
 
-# 🚀 GitHub-like Platform
+<!-- 🌟 Animated Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Om%20Dandagvhal&fontSize=50&fontColor=00D9FF&fontAlignY=38&desc=Final-Year%20B.Tech%20IT%20%40%20SITRC%2C%20Nashik&descSize=22&descColor=ffffff&descAlignY=58&color=gradient:0:00D9FF:50:A78BFA:100:EC4899&section=header" width="100%" alt="Header"/>
 
-**A full-stack, production-ready Git hosting platform built with the MERN stack**
+<br><br>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5%2B-blue.svg)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-18%2B-61DAFB.svg)](https://reactjs.org/)
-[![Express](https://img.shields.io/badge/Express.js-4%2B-black.svg)](https://expressjs.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-6%2B-green.svg)](https://www.mongodb.com/)
-[![Redis](https://img.shields.io/badge/Redis-7%2B-red.svg)](https://redis.io/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+<!-- 🎯 Animated Typing SVG -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=2500&pause=800&color=00D9FF&center=true&vCenter=true&multiline=true&width=700&height=140&lines=Backend+%26+Distributed+Systems+Engineer;Building+Production-Grade+Backend+Systems;Open+Source+Contributor+%E2%9C%89%EF%B8%8F;Seeking+Summer+2026+Internship" alt="Typing SVG" />
 
-*A scalable platform inspired by GitHub with native Git storage, CI/CD pipelines, webhooks, real-time collaboration, and intelligent code search.*
+<br>
+
+<!-- 📊 Top badges row -->
+<img src="https://komarev.com/ghpvc/?username=OMD-123&label=Profile%20Views&color=00D9FF&style=flat-square" alt="Profile Views"/>
+&nbsp;
+<img src="https://img.shields.io/github/followers/OMD-123?label=Followers&style=flat-square&color=A78BFA" alt="Followers"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Open%20to%20Work-Internships-00C853?style=flat-square&logo=briefcase" alt="Hiring"/>
+&nbsp;
+<img src="https://img.shields.io/badge/B.Tech%20IT-2026--27-EC4899?style=flat-square&logo=graduation-cap&logoColor=white" alt="Academic Year"/>
 
 </div>
 
 ---
 
-## ✨ Features
+<div align="center">
 
-| Category | Capabilities |
-|----------|-------------|
-| **🗂 Repository Management** | Create, clone, fork, delete, archive, transfer |
-| **📝 Git Operations** | Native `nodegit` — commit, branch, merge, tag, rebase, blame, history |
-| **🔄 CI/CD Pipelines** | BullMQ-backed pipelines with stages, parallel jobs, artifacts, caching |
-| **🔗 Webhooks** | Event-driven HTTP callbacks + real-time Socket.io delivery |
-| **🔍 Code Search** | Full-text search across repos, commits, files (MongoDB text indexes) |
-| **👥 Collaboration** | Real-time notifications, @mentions, activity feeds |
-| **🔐 Authentication** | JWT + refresh tokens, OAuth (GitHub, GitLab), 2FA ready |
-| **🎨 Code Editor** | Monaco Editor with syntax highlighting, diff view, LSP support |
+## 🎯 About Me
 
----
+</div>
 
-## 🏗 Architecture
-
+```typescript
+// 💡 Daily system design practice in TypeScript
+const om = {
+  name:           "Om Dandagvhal",
+  role:           "Final-Year B.Tech IT @ SITRC, Nashik",
+  class:          "BE 2026-27 | Group 37 | Roll 70",
+  pronouns:       "he/him",
+  location:       "Nashik, Maharashtra 🇮🇳",
+  email:          "omd4485@gmail.com",
+  phone:          "+91 9970055620",
+  currently:      [
+    "🚀 Day 6: Distributed Backend System Design",
+    "📊 Capstone: Multimodal Sentiment Analysis (MinHash LSH)",
+    "🎯 Actively applying for Summer 2026 Backend Internships",
+    "📦 Published: @omdd/agent-loop-guard on npm"
+  ],
+  interests:      ["Distributed Systems", "API Design", "Cloud Native", "Open Source", "AI Safety"],
+  funFact:        "I ship one production-ready backend system every week 📦",
+  philosophy:     "Learn by building. Ship by shipping. Improve by iterating."
+};
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                        FRONTEND (React 18 + TS)                 │
-│  ┌─────────┐ ┌──────────┐ ┌─────────┐ ┌────────┐ ┌──────────┐  │
-│  │ Pages   │ │ Components│ │ Redux   │ │ Socket │ │ Monaco   │  │
-│  │ /Routes │ │ /UI Kit  │ │ Store   │ │ Client │ │ Editor   │  │
-│  └────┬────┘ └────┬─────┘ └────┬────┘ └────┬───┘ └────┬─────┘  │
-└───────│────────────│───────────│────────────│──────────│────────┘
-        │            │           │            │          │
-        ▼            ▼           ▼            ▼          ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                      BACKEND (Express + TS)                     │
-│  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌────────────┐   │
-│  │ Auth   │ │ Git    │ │ CI/CD  │ │ Webhook│ │ CodeSearch │   │
-│  │ Module │ │ Module │ │ Module │ │ Module │ │ Module     │   │
-│  └────┬───┘ └────┬───┘ └────┬───┘ └────┬───┘ └──────┬─────┘   │
-└───────│──────────│──────────│──────────│────────────│─────────┘
-        │          │          │          │            │
-        ▼          ▼          ▼          ▼            ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                         DATA LAYER                              │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────────┐   │
-│  │ MongoDB  │  │ Redis    │  │ Git Repos│  │ BullMQ       │   │
-│  │ (Meta)   │  │ (Cache/  │  │ (nodegit)│  │ (Queues)     │   │
-│  │          │  │  PubSub) │  │          │  │              │   │
-│  └──────────┘  └──────────┘  └──────────┘  └──────────────┘   │
-└─────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🛠 Tech Stack
-
-### Backend
-| Technology | Version | Purpose |
-|------------|---------|---------|
-| **Node.js** | 18+ | Runtime |
-| **TypeScript** | 5+ | Type safety |
-| **Express.js** | 4+ | HTTP framework |
-| **MongoDB + Mongoose** | 6+ | Metadata & search |
-| **Redis + BullMQ** | 7+ | Caching, queues, pub/sub |
-| **Socket.io** | 4+ | Real-time communication |
-| **nodegit** | Latest | Native Git operations |
-| **JWT + zod** | Latest | Auth & validation |
-
-### Frontend
-| Technology | Version | Purpose |
-|------------|---------|---------|
-| **React** | 18+ | UI framework |
-| **TypeScript** | 5+ | Type safety |
-| **Vite** | 5+ | Build tool |
-| **Redux Toolkit** | 2+ | State management |
-| **React Router** | 6+ | Routing |
-| **Monaco Editor** | Latest | Code editing |
-| **Socket.io Client** | 4+ | Real-time |
-| **Axios** | 1+ | HTTP client |
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-- **Node.js** 18+
-- **MongoDB** 6+
-- **Redis** 7+
-- **Git** 2.30+
-
-### Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/github-like-platform.git
-cd github-like-platform
-
-# 2. Backend setup
-cd backend
-npm install
-cp .env.example .env
-# Edit .env with your configuration
-
-# 3. Frontend setup
-cd ../frontend
-npm install
-cp .env.example .env
-# Edit .env with your configuration
-
-# 4. Start infrastructure
-docker-compose up -d  # MongoDB + Redis
-
-# 5. Start development servers
-# Terminal 1 - Backend
-cd backend && npm run dev
-
-# Terminal 2 - Frontend
-cd frontend && npm run dev
-```
-
-### Environment Variables
-
-**Backend** (`.env`)
-```env
-# Server
-PORT=5000
-NODE_ENV=development
-
-# Database
-MONGODB_URI=mongodb://localhost:27017/gitplatform
-REDIS_HOST=localhost
-REDIS_PORT=6379
-
-# Auth
-JWT_SECRET=your_super_secret_key_min_32_chars
-JWT_REFRESH_SECRET=your_refresh_secret_min_32_chars
-JWT_EXPIRY=15m
-JWT_REFRESH_EXPIRY=7d
-
-# Frontend URL (CORS)
-FRONTEND_URL=http://localhost:5173
-
-# Git
-GIT_STORAGE_PATH=./git-repositories
-
-# Email (optional)
-SMTP_HOST=smtp.example.com
-SMTP_PORT=587
-SMTP_USER=your@email.com
-SMTP_PASS=your_password
-```
-
-**Frontend** (`.env`)
-```env
-VITE_API_URL=http://localhost:5000/api
-VITE_WS_URL=ws://localhost:5000
-VITE_APP_NAME=GitPlatform
-```
-
----
-
-## 📡 API Reference
-
-### Authentication
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `POST` | `/api/auth/register` | Register new user |
-| `POST` | `/api/auth/login` | Login user |
-| `POST` | `/api/auth/refresh` | Refresh access token |
-| `GET` | `/api/auth/me` | Get current user |
-| `POST` | `/api/auth/logout` | Logout |
-
-### Repositories
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/api/repositories` | List repositories (paginated) |
-| `POST` | `/api/repositories` | Create repository |
-| `GET` | `/api/repositories/:id` | Get repository |
-| `PATCH` | `/api/repositories/:id` | Update repository |
-| `DELETE` | `/api/repositories/:id` | Delete repository |
-| `POST` | `/api/repositories/:id/fork` | Fork repository |
-| `GET` | `/api/repositories/:id/contents/:commitId/*` | Get file tree/contents |
-| `GET` | `/api/repositories/:id/commits` | List commits |
-| `GET` | `/api/repositories/:id/commits/:sha` | Get commit details |
-| `GET` | `/api/repositories/:id/search?q=query` | Search code |
-
-### CI/CD
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `POST` | `/api/ci-cd/pipelines` | Create pipeline |
-| `GET` | `/api/ci-cd/pipelines` | List pipelines |
-| `GET` | `/api/ci-cd/pipelines/:id` | Get pipeline |
-| `POST` | `/api/ci-cd/pipelines/:id/trigger` | Trigger run |
-| `GET` | `/api/ci-cd/runs/:id` | Get run status/logs |
-
-### Webhooks
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `POST` | `/api/webhooks` | Create webhook |
-| `GET` | `/api/webhooks` | List webhooks |
-| `DELETE` | `/api/webhooks/:id` | Delete webhook |
-| `GET` | `/api/webhooks/:id/deliveries` | View delivery history |
-
----
-
-## 🧪 Testing
-
-```bash
-# Backend tests
-cd backend
-npm run test          # Unit + integration
-npm run test:watch    # Watch mode
-npm run test:coverage # Coverage report
-
-# Frontend tests
-cd frontend
-npm run test
-npm run test:e2e      # Cypress/Playwright
-```
-
----
-
-## 📁 Project Structure
-
-```
-github-like-platform/
-├── backend/
-│   ├── src/
-│   │   ├── config/           # Configuration
-│   │   ├── modules/
-│   │   │   ├── auth/         # JWT, OAuth, 2FA
-│   │   │   ├── git/          # nodegit operations
-│   │   │   ├── ci-cd/        # Pipeline engine
-│   │   │   ├── webhook/      # Event delivery
-│   │   │   └── search/       # Code search
-│   │   ├── middleware/       # Error, validation, rate-limit
-│   │   ├── utils/            # Helpers
-│   │   ├── app.ts            # Express setup
-│   │   └── server.ts         # Entry point
-│   ├── tests/                # Unit + integration
-│   └── Dockerfile
-│
-├── frontend/
-│   ├── src/
-│   │   ├── pages/            # Route components
-│   │   ├── components/       # Reusable UI
-│   │   ├── store/            # Redux slices
-│   │   ├── hooks/            # Custom hooks
-│   │   ├── services/         # API clients
-│   │   ├── types/            # TS interfaces
-│   │   ├── App.tsx
-│   │   └── main.tsx
-│   └── Dockerfile
-│
-├── docker-compose.yml
-├── .github/workflows/        # CI/CD
-└── README.md
-```
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) first.
-
-### Quick Contribution Checklist
-- [ ] Fork the repository
-- [ ] Create a feature branch (`git checkout -b feature/amazing-feature`)
-- [ ] Write tests for new functionality
-- [ ] Ensure all tests pass (`npm run test`)
-- [ ] Follow code style (`npm run lint`)
-- [ ] Submit a Pull Request
-
-### Good First Issues
-Look for issues tagged `good first issue` or `help wanted`.
-
----
-
-## 📸 Screenshots
-
-> *Add screenshots here showing:*
-> - Dashboard with repository list
-> - File browser with Monaco editor
-> - CI/CD pipeline visualization
-> - Real-time notifications
-> - Code search results
-
----
-
-## 🗺 Roadmap
-
-- [ ] **Pull Requests & Code Reviews** — Diff view, comments, approvals
-- [ ] **Issue Tracking** — Labels, milestones, project boards
-- [ ] **GitHub Actions Compatibility** — Import `.github/workflows`
-- [ ] **Package Registry** — npm, Docker, Maven packages
-- [ ] **Security Scanning** — SAST, dependency audit
-- [ ] **Performance Analytics** — Repository insights
-- [ ] **AI Code Assistant** — Copilot-like suggestions
-
----
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-## 👤 Author
-
-**Om Dandagvhal**  
-B.Tech CS '27 | Full-Stack Developer | Open Source Contributor
-
-[![GitHub](https://img.shields.io/badge/GitHub-OMD--123-181717?logo=github)](https://github.com/OMD-123)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Om%20Dandagvhal-0A66C2?logo=linkedin)](https://linkedin.com/in/om-dandagvhal)
-[![Email](https://img.shields.io/badge/Email-omd4485%40gmail.com-D14836?logo=gmail)](mailto:omd4485@gmail.com)
 
 ---
 
 <div align="center">
 
-**⭐ Star this repo if you find it useful!**
+## 🛠️ Tech Stack & Tools
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center" width="33%">
+
+### 💻 Languages
+<img src="https://skillicons.dev/icons?i=js,ts,python,go,java,cpp" /><br>
+<sub>JavaScript • TypeScript • Python • Go • Java • C++</sub>
+
+</td>
+<td align="center" width="33%">
+
+### 🌐 Frameworks
+<img src="https://skillicons.dev/icons?i=nodejs,express,react,nextjs,tailwind,bootstrap" /><br>
+<sub>Node.js • Express • React • Next.js • Tailwind • Bootstrap</sub>
+
+</td>
+<td align="center" width="33%">
+
+### 🗄️ Databases & Cache
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,prisma" /><br>
+<sub>MongoDB • PostgreSQL • MySQL • Redis • Prisma</sub>
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
+### ☁️ DevOps & Cloud
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,nginx,linux" /><br>
+<sub>Docker • Kubernetes • AWS • GCP • Nginx • Linux</sub>
+
+</td>
+<td align="center">
+
+### 🔧 Tools & Build
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,netlify,figma" /><br>
+<sub>Git • GitHub • VSCode • Vercel • Netlify • Figma</sub>
+
+</td>
+<td align="center">
+
+### 🔗 APIs & Protocols
+<img src="https://skillicons.dev/icons?i=graphql,protobuf" /><br>
+<sub>GraphQL • gRPC/Protobuf • REST • WebSocket • Kafka</sub>
+
+</td>
+</tr>
+<tr>
+<td align="center" colspan="3">
+
+### ⛓️ Blockchain & Others
+<img src="https://skillicons.dev/icons?i=solidity,hardhat,redis" /><br>
+<sub>Solidity • Hardhat • Web3.js • Ethers.js • BullMQ • Socket.io</sub>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+### 📊 Most Used Languages
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OMD-123&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117&title_color=00D9FF&text_color=ffffff&langs_count=10&hide=html,css" alt="Top Languages"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## 📈 GitHub Analytics
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=OMD-123&show_icons=true&theme=algolia&hide_border=true&bg_color=0d1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats"/>
+</td>
+<td align="center">
+<img src="https://streak-stats.demolab.com?user=OMD-123&theme=algolia&hide_border=true&background=0d1117&stroke=00D9FF&ring=A78BFA&fire=EC4899&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00D9FF&sideLabels=ffffff&dates=ffffff&border_radius=8" alt="Streak Stats"/>
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+### 🏆 Trophies
+<img src="https://github-profile-trophy.vercel.app/?username=OMD-123&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=7&title=Stars,Followers,Repositories,Commits,Issues,PullRequest,Experience,Joined&rank=-C,-B" alt="Trophies"/>
+
+### 📅 Contribution Activity Graph
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=OMD-123&bg_color=0d1117&color=00D9FF&line=EC4899&point=ffffff&hide_border=true&area=true&custom_title=📅%20Daily%20Contribution%20Graph" alt="Activity Graph"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌟 Featured Projects
+
+</div>
+
+<table align="center">
+<tr>
+<td width="50%" align="center">
+
+### 🛡️ agent-loop-guard
+**AI Agent Safety Library • 13 ⭐ • npm: @omdd/agent-loop-guard**
+<br>
+Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
+<br><br>
+<sub>Provider-independent • Zero deps • TypeScript-first • Loop detection</sub>
+<br><br>
+<img src="https://img.shields.io/github/stars/OMD-123/agent-loop-guard?style=flat-square&color=00D9FF"/>
+<img src="https://img.shields.io/github/forks/OMD-123/agent-loop-guard?style=flat-square&color=A78BFA"/>
+<br>
+[🛠️ **View Repo**](https://github.com/OMD-123/agent-loop-guard)
+&nbsp;•&nbsp;
+[📦 **npm Package**](https://www.npmjs.com/package/@omdd/agent-loop-guard)
+
+</td>
+<td width="50%" align="center">
+
+### 📦 Advance Backend Series (6 Systems in 6 Weeks)
+**Production-Grade Backend Systems • TypeScript • Redis • BullMQ**
+<br><br>
+
+| Day | System | Key Tech | Tests |
+|-----|--------|----------|-------|
+| **Day 1** | [Rate Limiter](https://github.com/OMD-123/advance-backend-day1-rate-limiter) | Token Bucket, Sliding Window, Leaky Bucket, Fixed Window, Sliding Log • Redis | ✅ |
+| **Day 2** | [JWT Auth](https://github.com/OMD-123/advance-backend-day2-jwt-auth) | RBAC, Refresh Tokens, Rotation, Blacklisting, bcrypt | ✅ |
+| **Day 3** | [GraphQL Gateway](https://github.com/OMD-123/advance-backend-day3-graphql-gateway) | Schema Stitching, Redis L1/L2 Cache, Rate Limiting, Auth | ✅ |
+| **Day 4** | [Notification System](https://github.com/OMD-123/advance-backend-day4-notification-system) | WebSocket + Redis Pub/Sub, Multi-channel, Retry + DLQ | ✅ |
+| **Day 5** | [Job Queue](https://github.com/OMD-123/advance-backend-day5-job-queue) | BullMQ + Redis, Priority, Retry, DLQ, **45 tests** | ✅ **45** |
+| **Day 6** | [Backend System](https://github.com/OMD-123/advance-backend-day6-backend-system) | Distributed System Design, Service Mesh Patterns | 🔄 |
+
+<br>
+[🛠️ **View All Day Repos**](https://github.com/OMD-123?tab=repositories&q=advance-backend)
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+
+### 🌐 Distributed Systems & Infrastructure
+
+**🕸️ [Distributed Web Crawler](https://github.com/OMD-123/distributed-web-crawler-ts)**
+<sub>Scalable MERN crawler • Distributed queue • Politeness policies • Rate limiting</sub>
+<br><br>
+
+**🗄️ [DB Sharding & Replication](https://github.com/OMD-123/db-sharding-replication)**
+<sub>Consistent hashing + Range sharding • Single-leader replication • Quorum reads • Vector clocks • Zero deps</sub>
+<br><br>
+
+**⚙️ [Distributed Task Orchestrator](https://github.com/OMD-123/distributed-task-orchestrator-ts)**
+<sub>Priority queues • State persistence • Reliable execution • TypeScript</sub>
+<br><br>
+
+**📦 [Advance Backend Day 5: Job Queue](https://github.com/OMD-123/advance-backend-day5-job-queue)**
+<sub>BullMQ + Redis • Priority queues • Retry with exponential backoff • DLQ • 45 tests passing</sub>
+<br><br>
+
+**☁️ [Container Scheduler](https://github.com/OMD-123/container-scheduler-mern-ts)**
+<sub>MERN + TypeScript • Docker orchestration • Resource allocation • Health checks</sub>
+
+</td>
+<td width="50%" align="center">
+
+### 🧠 AI & Specialized Systems
+
+**🛡️ [agent-loop-guard](https://github.com/OMD-123/agent-loop-guard)** ⭐ **13**
+<sub>AI agent safety library • Loop detection • Tool call limiting • Zero deps • **Published on npm: @omdd/agent-loop-guard**</sub>
+<br><br>
+
+**🧠 [Multimodal Sentiment Analysis](https://github.com/OMD-123/enterpret-feedback-dedup)**
+<sub>MinHash LSH deduplication • Customer feedback analysis • Python • Nearest neighbor search</sub>
+<br><br>
+
+**⚡ [AI Code Execution Arena](https://github.com/OMD-123/ai-code-execution-arena)**
+<sub>Sandboxed code execution • Multi-language support • Resource limits</sub>
+<br><br>
+
+**🤖 [Agent Loop Guard](https://github.com/OMD-123/agent-loop-guard)**
+<sub>Provider-independent AI agent safety • Loop detection • Tool call limiting • Zero deps</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+
+### 🏗️ Full-Stack Platforms
+
+**🐙 [GitHub-like Platform](https://github.com/OMD-123/gitHub-like-platform-ts)**
+<sub>MERN + TS • Native Git storage (nodegit) • CI/CD (BullMQ) • Webhooks • Code search • Monaco Editor</sub>
+<br><br>
+
+**🎮 [LeetCode Clone](https://github.com/OMD-123/leetcode-clone-mern-ts)**
+<sub>MERN + TS • Code execution sandbox • Real-time submissions • Problem management</sub>
+<br><br>
+
+**🏗️ [Advanced System Design MERN](https://github.com/OMD-123/advanced-system-design-mern)**
+<sub>System design patterns • Caching layers • Load balancing • Service mesh</sub>
+<br><br>
+
+**🏗️ [Day 6: Distributed Backend System](https://github.com/OMD-123/advance-backend-day6-backend-system)**
+<sub>Service mesh patterns • Distributed tracing • Circuit breakers • Service discovery</sub>
+
+</td>
+<td width="50%" align="center">
+
+### 🔬 Specialized & Research
+
+**🔗 [DB Sharding & Replication](https://github.com/OMD-123/db-sharding-replication)**
+<sub>Consistent hashing + Range sharding • Single-leader replication • Quorum • Vector clocks • Zero deps</sub>
+<br><br>
+
+**🧠 [Multimodal Sentiment Analysis](https://github.com/OMD-123/enterpret-feedback-dedup)**
+<sub>MinHash LSH deduplication • Customer feedback analysis • Nearest neighbor search • Python</sub>
+<br><br>
+
+**🪙 [OmCoin ERC-20](https://github.com/OMD-123/OmCoin)**
+<sub>Solidity • Hardhat • OpenZeppelin • Ethers.js • Deployed on testnet</sub>
+<br><br>
+
+**🛰️ [GOD'S EYE](https://github.com/OMD-123/gods-eyes)**
+<sub>Real-time intelligence dashboard • Flights, vessels, AQI, CCTV, seismic • 24 Indian cities</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 🎓 Currently Working On
+
+</div>
+
+```diff
++ 🚧 Day 6  →  Distributed Backend System Design        [IN PROGRESS]
++ 🚧 Capstone → Multimodal Sentiment Analysis (MinHash) [WEEK 2 of 12]
++ 🎯 Goal   →  Land a Summer 2026 Backend Internship    [ACTIVELY APPLYING]
++ ✅ Done   →  Day 5 Job Queue (BullMQ, 45 tests)       [DONE]
++ ✅ Done   →  Day 4 Notification System (WS + Redis)   [DONE]
++ ✅ Done   →  Day 3 GraphQL Gateway (Schema Stitching) [DONE]
++ ✅ Done   →  Day 2 JWT Auth (RBAC, Refresh, Rotation) [DONE]
++ ✅ Done   →  Day 1 Rate Limiter (5 algorithms)        [DONE]
++ ✅ Done   →  agent-loop-guard (Published on npm)      [DONE]
+```
+
+<div align="center">
+
+### 🛣️ 2026 Roadmap
+
+</div>
+
+| Quarter | Goal | Status |
+|---------|------|--------|
+| **Q1** (Jan–Mar) | Master backend basics (Node, DB, API, Redis) | ✅ 100% |
+| **Q2** (Apr–Jun) | Build 6 production backend systems (Weekly) | 🔄 83% (5/6) |
+| **Q3** (Jul–Sep) | Capstone + Advanced Distributed Systems | 🔄 In Progress |
+| **Q4** (Oct–Dec) | Land Summer 2026 Internship + Final Year Project | ⏳ Upcoming |
+
+---
+
+<div align="center">
+
+## 🎓 Education & Profile
+
+</div>
+
+| Detail | Value |
+|--------|-------|
+| **Degree** | B.Tech Information Technology |
+| **Institute** | SITRC, Nashik (Savitribai Phule Pune University) |
+| **Graduation** | 2027 |
+| **Current Year** | Final Year (4th Year) |
+| **Roll / Group** | Roll 70 • Group 37 |
+| **CGPA** | 8.5+ (Till Sem 6) |
+
+---
+
+<div align="center">
+
+## 🎯 Target Companies (Summer 2026)
+
+</div>
+
+<div align="center">
+
+| Tier 1 | Tier 2 | Tier 3 |
+|--------|--------|--------|
+| 🏦 **Stripe** | 🟢 **Atlassian** | 🔵 **Salesforce** |
+| 🟣 **Swiggy** | 🟠 **Cognizant** | 🔵 **Capgemini** |
+| 🟡 **TCS** | 🟠 **Amazon** | 🟢 **Concentrix** |
+| 🔵 **L&T** | 🔵 **Nestlé** | 🟢 **More...** |
+
+</div>
+
+> **Internship Strategy:** Cold emails with **Proof of Work** — I build custom features for target companies (e.g., rate limiter for Stripe, notification system for Swiggy) and include the working repo in cold outreach.
+
+---
+
+<div align="center">
+
+## 📫 Let's Connect
+
+</div>
+
+<div align="center">
+
+<a href="mailto:omd4485@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-omd4485@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+&nbsp;
+<a href="https://github.com/OMD-123">
+  <img src="https://img.shields.io/badge/GitHub-@OMD--123-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/om-dandagvhal">
+  <img src="https://img.shields.io/badge/LinkedIn-om--dandagvhal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="tel:+919970055620">
+  <img src="https://img.shields.io/badge/Phone-%2B91%209970055620-25D366?style=for-the-badge&logo=phone&logoColor=white" alt="Phone"/>
+</a>
+
+<br><br>
+
+### 💬 Random Dev Quote
+<img src="https://quotes-githubreadme.vercel.app/api?type=horizontal&theme=algolia&border_radius=8" alt="Random Dev Quote"/>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient:0:00D9FF:50:A78BFA:100:EC4899&height=80&section=footer" width="100%" alt="Footer"/>
+<sub>⚡ *\"Learn by building. Ship by shipping. Improve by iterating.\"* ⚡</sub>
 
 </div>
