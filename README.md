@@ -177,7 +177,9 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 **TypeScript • Redis • BullMQ**
 
 <details>
-<summary><b>Click to expand table ▼</b></summary>
+<summary><b>Click to expand ▼</b></summary>
+
+<sub>
 
 | Day | System | Key Technologies | Tests |
 |-----|--------|------------------|-------|
@@ -188,6 +190,8 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 | **Day 5** | [Job Queue](https://github.com/OMD-123/advance-backend-day5-job-queue) | BullMQ + Redis, Priority, Retry, DLQ | **45 tests** ✅ |
 | **Day 6** | [Backend System](https://github.com/OMD-123/advance-backend-day6-backend-system) | Service Mesh, Distributed Tracing, Circuit Breakers | 🔄 |
 
+</sub>
+
 </details>
 
 [🛠️ **View All Day Repos**](https://github.com/OMD-123?tab=repositories&q=advance-backend)
@@ -197,7 +201,9 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 ### 🌐 **Distributed Systems & Infrastructure**
 
 <details>
-<summary><b>Click to expand table ▼</b></summary>
+<summary><b>Click to expand ▼</b></summary>
+
+<sub>
 
 | Project | Description | Key Tech |
 |---------|-------------|----------|
@@ -207,6 +213,8 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 | [📦 Job Queue (Day 5)](https://github.com/OMD-123/advance-backend-day5-job-queue) | BullMQ + Redis, Priority queues, Retry with exponential backoff, DLQ | 45 tests ✅ |
 | [☁️ Container Scheduler](https://github.com/OMD-123/container-scheduler-mern-ts) | Docker orchestration, Resource allocation, Health checks | MERN, TS, Docker |
 
+</sub>
+
 </details>
 
 ---
@@ -214,13 +222,17 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 ### 🧠 **AI & Specialized Systems**
 
 <details>
-<summary><b>Click to expand table ▼</b></summary>
+<summary><b>Click to expand ▼</b></summary>
+
+<sub>
 
 | Project | Description | Key Tech |
 |---------|-------------|----------|
 | [🛡️ agent-loop-guard](https://github.com/OMD-123/agent-loop-guard) ⭐ **13** | AI agent safety library • Loop detection • Tool call limiting • Zero deps • **Published on npm** | TS, Zero deps |
 | [Multimodal Sentiment Analysis](https://github.com/OMD-123/enterpret-feedback-dedup) | MinHash LSH deduplication • Customer feedback analysis • Nearest neighbor search | Python, MinHash LSH |
 | [AI Code Execution Arena](https://github.com/OMD-123/ai-code-execution-arena) | Sandboxed code execution • Multi-language support • Resource limits | TS, Sandbox |
+
+</sub>
 
 </details>
 
@@ -229,7 +241,9 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 ### 🏗️ Full-Stack Platforms
 
 <details>
-<summary><b>Click to expand table ▼</b></summary>
+<summary><b>Click to expand ▼</b></summary>
+
+<sub>
 
 | Project | Description | Key Tech |
 |---------|-------------|----------|
@@ -238,6 +252,8 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 | [🏗️ Advanced System Design MERN](https://github.com/OMD-123/advanced-system-design-mern) | Caching layers • Load balancing • Service mesh | MERN, TS |
 | [🏗️ Day 6: Distributed Backend System](https://github.com/OMD-123/advance-backend-day6-backend-system) | Service mesh patterns • Distributed tracing • Circuit breakers | TS, Service Mesh |
 
+</sub>
+
 </details>
 
 ---
@@ -245,7 +261,9 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 ### 🔬 Specialized & Research
 
 <details>
-<summary><b>Click to expand table ▼</b></summary>
+<summary><b>Click to expand ▼</b></summary>
+
+<sub>
 
 | Project | Description | Key Tech |
 |---------|-------------|----------|
@@ -253,6 +271,8 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 | [🧠 Multimodal Sentiment Analysis](https://github.com/OMD-123/enterpret-feedback-dedup) | MinHash LSH deduplication • Customer feedback analysis • Nearest neighbor search | Python, MinHash LSH |
 | [🪙 OmCoin ERC-20](https://github.com/OMD-123/OmCoin) | Solidity • Hardhat • OpenZeppelin • Ethers.js • Deployed on testnet | Solidity, Hardhat |
 | [🛰️ GOD'S EYE](https://github.com/OMD-123/gods-eyes) | Real-time intelligence dashboard • Flights, vessels, AQI, CCTV, seismic • 24 Indian cities | JS, Real-time APIs |
+
+</sub>
 
 </details>
 
