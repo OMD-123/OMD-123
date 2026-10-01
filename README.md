@@ -176,8 +176,6 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 ### 📦 **Advance Backend Series** — 6 Production Systems in 6 Weeks
 **TypeScript • Redis • BullMQ**
 
-<sub>
-
 | Day | System | Key Technologies | Tests |
 |-----|--------|------------------|-------|
 | **Day 1** | [Rate Limiter](https://github.com/OMD-123/advance-backend-day1-rate-limiter) | Token Bucket, Sliding Window, Leaky Bucket, Fixed Window, Sliding Log • Redis | ✅ |
@@ -187,15 +185,11 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 | **Day 5** | [Job Queue](https://github.com/OMD-123/advance-backend-day5-job-queue) | BullMQ + Redis, Priority, Retry, DLQ | **45 tests** ✅ |
 | **Day 6** | [Backend System](https://github.com/OMD-123/advance-backend-day6-backend-system) | Service Mesh, Distributed Tracing, Circuit Breakers | 🔄 |
 
-</sub>
-
 [🛠️ **View All Day Repos**](https://github.com/OMD-123?tab=repositories&q=advance-backend)
 
 ---
 
 ### 🌐 **Distributed Systems & Infrastructure**
-
-<sub>
 
 | Project | Description | Key Tech |
 |---------|-------------|----------|
@@ -205,13 +199,9 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 | [📦 Job Queue (Day 5)](https://github.com/OMD-123/advance-backend-day5-job-queue) | BullMQ + Redis, Priority queues, Retry with exponential backoff, DLQ | 45 tests ✅ |
 | [☁️ Container Scheduler](https://github.com/OMD-123/container-scheduler-mern-ts) | Docker orchestration, Resource allocation, Health checks | MERN, TS, Docker |
 
-</sub>
-
 ---
 
 ### 🧠 **AI & Specialized Systems**
-
-<sub>
 
 | Project | Description | Key Tech |
 |---------|-------------|----------|
@@ -219,13 +209,9 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 | [Multimodal Sentiment Analysis](https://github.com/OMD-123/enterpret-feedback-dedup) | MinHash LSH deduplication • Customer feedback analysis • Nearest neighbor search | Python, MinHash LSH |
 | [AI Code Execution Arena](https://github.com/OMD-123/ai-code-execution-arena) | Sandboxed code execution • Multi-language support • Resource limits | TS, Sandbox |
 
-</sub>
-
 ---
 
 ### 🏗️ Full-Stack Platforms
-
-<sub>
 
 | Project | Description | Key Tech |
 |---------|-------------|----------|
@@ -234,13 +220,9 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 | [🏗️ Advanced System Design MERN](https://github.com/OMD-123/advanced-system-design-mern) | Caching layers • Load balancing • Service mesh | MERN, TS |
 | [🏗️ Day 6: Distributed Backend System](https://github.com/OMD-123/advance-backend-day6-backend-system) | Service mesh patterns • Distributed tracing • Circuit breakers | TS, Service Mesh |
 
-</sub>
-
 ---
 
 ### 🔬 Specialized & Research
-
-<sub>
 
 | Project | Description | Key Tech |
 |---------|-------------|----------|
@@ -248,8 +230,6 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 | [🧠 Multimodal Sentiment Analysis](https://github.com/OMD-123/enterpret-feedback-dedup) | MinHash LSH deduplication • Customer feedback analysis • Nearest neighbor search | Python, MinHash LSH |
 | [🪙 OmCoin ERC-20](https://github.com/OMD-123/OmCoin) | Solidity • Hardhat • OpenZeppelin • Ethers.js • Deployed on testnet | Solidity, Hardhat |
 | [🛰️ GOD'S EYE](https://github.com/OMD-123/gods-eyes) | Real-time intelligence dashboard • Flights, vessels, AQI, CCTV, seismic • 24 Indian cities | JS, Real-time APIs |
-
-</sub>
 
 ---
 
