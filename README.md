@@ -295,6 +295,139 @@ Prevents runaway loops, repeated tool calls, uncontrolled execution in AI agents
 
 <div align="center">
 
+## 🐛 Open Source Contributions
+
+</div>
+
+> **What kind of contributor am I?** I ship **root-cause fixes with regression tests to production OSS** — not typo patches. Every contribution below was diagnosed from source, verified against the real runtime, and independently reviewed by an AI code reviewer before a human looked at it.
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### 🐛 Karakeep — Highlight Popover Fix
+
+[![PR](https://img.shields.io/badge/PR-%233297-8B5CF6?style=for-the-badge&logo=github)](https://github.com/karakeep-app/karakeep/pull/3297)
+[![Issue](https://img.shields.io/badge/Issue-%233288-10B981?style=for-the-badge&logo=github)](https://github.com/karakeep-app/karakeep/issues/3288)
+[![Tests](https://img.shields.io/badge/Tests-14%20passing-22C55E?style=for-the-badge&logo=vitest&logoColor=white)](https://github.com/karakeep-app/karakeep/pull/3297)
+
+**[Anchoring a `position: fixed` popover inside a transformed dialog](https://github.com/karakeep-app/karakeep/pull/3297)**
+
+A CSS `transform` makes an element the *containing block* for `position: fixed` descendants. Karakeep's preview modal centers its `DialogContent` with `translate-x-[-50%] translate-y-[-50%]`, so the highlight popover's anchor resolved against the **dialog box** instead of the **viewport** — landing the popover directly on the user's text selection.
+
+**Root cause** — `packages/shared-react/lib/highlightPosition.ts`
+**Fix** — resolve the anchor against its real containing block (`getFixedPositionOffsetParent`), then convert the selection rect into that ancestor's coordinate space
+**Verification** — real Chromium + real Radix `Popover` primitives; 4/4 geometric assertions
+**Review** — an AI reviewer found a second, unfixed call site (the saved-highlight branch); fixed in a follow-up commit with 4 more regression tests
+
+</td>
+<td align="center" width="50%">
+
+### 🔍 The Technique I Use
+
+**Finding high-signal bugs that maintainers accept:**
+
+1. **Scan** — read `CONTRIBUTING.md` / `AGENTS.md` and the issue tracker for *confirmed, reproducible* bugs
+2. **Root-cause** — read the actual source and the dependency internals (e.g. `@floating-ui/dom`, Radix) until the mechanism is unambiguous
+3. **Prove it** — write a failing test *and* a real-browser reproduction **before** touching the fix
+4. **Fix minimally** — one root cause, no drive-by refactors, no new dependencies
+5. **Verify** — `typecheck` → `lint` → `format` → `test` → frozen-lockfile install → real-browser assertion
+6. **Respond** — address every reviewer finding in a follow-up commit, not in the PR description
+
+> *"The best PR is the one where the maintainer's only comment is `LGTM`."*
+
+</td>
+</tr>
+</table>
+
+---
+
+### 📊 Contribution Snapshot
+
+| | |
+|---|---|
+| **Open PRs** | **14** across **11** repositories |
+| **Merged upstream PRs** | **3** (Sequelize, Temporal TypeScript SDK, The Last Signal) |
+| **Combined stars of targeted repos** | **~820,000** |
+| **Stars on the largest target** | **186k** (Ollama) |
+
+---
+
+### 🔗 Open Pull Requests
+
+| Repository | Contribution | Stars |
+|---|---|---|
+| [Ollama](https://github.com/ollama/ollama/pull/19334) | Fix media ordering in embeddings for multimodal models | 186k ⭐ |
+| [Axios](https://github.com/axios/axios/pull/11414) | Cancel the response-stream capability-probe body | 109k ⭐ |
+| [Axios](https://github.com/axios/axios/pull/11365) | Prevent `RangeError` when a form field is named `length` | 109k ⭐ |
+| [Axios](https://github.com/axios/axios/pull/11237) | Reject a nullish `url` for dispatched requests | 109k ⭐ |
+| [Deno](https://github.com/denoland/deno/pull/37124) | Reject non-object iterator results in `URLSearchParams` | 108k ⭐ |
+| [TypeScript](https://github.com/microsoft/TypeScript/pull/64616) | Improve the error message for JSX in non-module files | 111k ⭐ |
+| [vLLM](https://github.com/vllm-project/vllm/pull/63360) | Reclaim encoder compute budget after multimodal pruning | 96k ⭐ |
+| [Bun](https://github.com/oven-sh/bun/pull/46699) | Match Node.js `ToIntegerOrInfinity` in `crypto.randomInt` | 96k ⭐ |
+| [Karakeep](https://github.com/karakeep-app/karakeep/pull/3297) | Anchor the highlight popover to the selection in the preview modal | 30k ⭐ |
+| [Docker Compose](https://github.com/docker/compose/pull/14378) | Extract an `IsPureResourceProvider` helper | 38k ⭐ |
+| [Cua](https://github.com/trycua/cua/pull/5936) | Persistent connection pooling for `VzApi` | 31k ⭐ |
+| [Moleculer](https://github.com/moleculerjs/moleculer/pull/1370) | Per-action and per-service validator overrides | 6k ⭐ |
+| [KafkaJS](https://github.com/tulios/kafkajs/pull/1800) | `deleteConsumerGroupOffsets` admin API | 4k ⭐ |
+
+<sub>All contributions use signed-off commits and a linear (rebase) history to satisfy DCO checks.</sub>
+
+---
+
+<details>
+<summary><h3>🧪 How I verify a fix before opening a PR</h3></summary>
+
+A passing unit test tells you very little. For UI and positioning bugs I build a **real-browser harness** that exercises the *actual* production code path:
+
+```js
+// Legacy behaviour: the anchor is displaced by exactly the dialog origin
+[ok] legacy: the anchor is displaced by exactly the dialog origin
+[ok] legacy: the REAL Radix popover covers the text selection (the reported bug)
+[ok] fixed:  the anchor lands exactly on the selection centre
+[ok] fixed:  the REAL Radix popover no longer covers the text selection
+```
+
+The legacy branch is asserted **as a bug** — so the test proves the bug existed, not just that the new code happens to be self-consistent.
+
+</details>
+
+<details>
+<summary><h3>🧭 How I choose which project to contribute to</h3></summary>
+
+I score targets on four axes before writing any code:
+
+| Signal | Why it matters |
+|---|---|
+| **Reproducible bug reports** | A confirmed bug is already agreed-upon work — no design debate |
+| **Merges external PRs** | Maintainers who actually review outside contributions |
+| **An AI code reviewer is wired in** | My PR gets a structured first review before a human sees it |
+| **A public `CONTRIBUTING.md` with real rules** | The repo *wants* contributions and states the bar |
+
+</details>
+
+<details>
+<summary><h3>📝 Contribution checklist I run before every PR</h3></summary>
+
+- [x] Read `CONTRIBUTING.md` and the repo's `AGENTS.md`
+- [x] Searched for duplicate issues **and** duplicate PRs
+- [x] Root-caused it from source, not from the issue text
+- [x] Failing regression test written **first**
+- [x] Minimal diff — no drive-by refactors, no new dependencies
+- [x] `typecheck` / `lint` / `format` / `test` all green
+- [x] `pnpm install --frozen-lockfile` still succeeds
+- [x] Verified in the real runtime, not just the test harness
+- [x] PR description explains the **root cause**, not just the diff
+- [x] LLM-use disclosure included, as the repo's template requires
+
+</details>
+
+---
+
+---
+
+<div align="center">
+
 ## 📫 Let's Connect
 
 </div>
